@@ -19,7 +19,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1726788477520
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -52,7 +57,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1726787913122,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1726788320581
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -596,7 +606,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1726788320907,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1726788439647
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -791,10 +806,17 @@
                             "ap2Primary": false,
                             "ap1ID": 1726788411382,
                             "ap2ID": 1726788439647
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1726788439647,
+                            "ap2ID": 1726788320907
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 }
             ],
             "allConnectors": [
@@ -923,10 +945,66 @@
                     "ap2Primary": false,
                     "ap1ID": 1726788274638,
                     "ap2ID": 1726788214495
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1726788320581,
+                    "ap2ID": 1726787913122
                 }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.47288359788359785,
+            "y": 0.41040462427745666,
+            "uniqueID": 1726788477520,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1726787912581
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.5846560846560847,
+            "y": 0.638728323699422,
+            "uniqueID": 1726788485829,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1726788477520
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 76
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
         }
     ],
     "allConnectors": [
@@ -936,10 +1014,31 @@
             "ap2Primary": false,
             "ap1ID": 1726787881968,
             "ap2ID": 1726787912581
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1726787912581,
+            "ap2ID": 1726788477520
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726788477520,
+            "ap2ID": 1726787848543
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1726788477520,
+            "ap2ID": 1726788485829
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
