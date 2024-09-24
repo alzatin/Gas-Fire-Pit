@@ -83,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 762
+                            "ioValue": 695
                         }
                     ],
                     "description": "Creates a new circle."
@@ -91,13 +91,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.056216931216931214,
+                    "x": 0.05092592592592592,
                     "y": 0.4624277456647399,
                     "uniqueID": 1726787949345,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 712
+                            "ioValue": 670
                         }
                     ],
                     "description": "Creates a new circle."
@@ -105,8 +105,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.1283068783068783,
-                    "y": 0.5722543352601156,
+                    "x": 0.12698412698412698,
+                    "y": 0.5780346820809249,
                     "uniqueID": 1726787967121,
                     "ioValues": [
                         {
@@ -2010,7 +2010,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 700
+                    "ioValue": 545
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
