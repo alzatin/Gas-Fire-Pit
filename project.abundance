@@ -8,6 +8,14 @@
         {
             "name": "Wood Thickness",
             "ioValue": 12
+        },
+        {
+            "name": "Ring Diameter",
+            "ioValue": 750
+        },
+        {
+            "name": "Slat Thickness",
+            "ioValue": 12.7
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1029,8 +1037,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4953703703703704,
-            "y": 0.7910863509749304,
+            "x": 0.49404761904761907,
+            "y": 0.8133704735376045,
             "uniqueID": 1727215013003,
             "ioValues": [
                 {
@@ -1133,6 +1141,10 @@
                 {
                     "name": "Wood Thickness",
                     "ioValue": 12
+                },
+                {
+                    "name": "Ring Diameter",
+                    "ioValue": 750
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1170,7 +1182,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 700
+                            "ioValue": 750
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1211,6 +1223,15 @@
                         "cutLayout"
                     ],
                     "cutTag": true
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Ring Diameter",
+                    "x": 0.04,
+                    "y": 0.8356545961002785,
+                    "uniqueID": 1727737695537,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 }
             ],
             "allConnectors": [
@@ -1241,6 +1262,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1727736267065,
                     "ap2ID": 1727736219942
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1727737695537,
+                    "ap2ID": 1727736228267
                 }
             ],
             "fileTypeVersion": 1,
@@ -1889,6 +1917,75 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
+        },
+        {
+            "atomType": "Input",
+            "name": "Ring Diameter",
+            "x": 0.04,
+            "y": 0.26740947075208915,
+            "uniqueID": 1727737717536,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.2638888888888889,
+            "y": 0.22005571030640667,
+            "uniqueID": 1727737741448,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 12
+                },
+                {
+                    "name": "Ring Diameter",
+                    "ioValue": 750
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1727737741529,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.04,
+                    "y": 0.5289017341040462,
+                    "uniqueID": 1727737741398,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Ring Diameter",
+                    "x": 0.04,
+                    "y": 0.26740947075208915,
+                    "uniqueID": 1727737741355,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Input",
+            "name": "Slat Thickness",
+            "x": 0.04,
+            "y": 0.3983286908077995,
+            "uniqueID": 1727737766749,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         }
     ],
     "allConnectors": [
@@ -1905,6 +2002,13 @@
             "ap2Primary": false,
             "ap1ID": 1726787881968,
             "ap2ID": 1727736219741
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1726787881968,
+            "ap2ID": 1727737741448
         },
         {
             "ap1Name": "Geometry",
@@ -1961,6 +2065,20 @@
             "ap2Primary": false,
             "ap1ID": 1727737251784,
             "ap2ID": 1727736399623
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Ring Diameter",
+            "ap2Primary": false,
+            "ap1ID": 1727737717536,
+            "ap2ID": 1727736219741
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Ring Diameter",
+            "ap2Primary": false,
+            "ap1ID": 1727737717536,
+            "ap2ID": 1727737741448
         }
     ],
     "unitsKey": "MM",
