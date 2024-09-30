@@ -1089,58 +1089,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Sides",
-            "x": 0.6871693121693122,
-            "y": 0.8050139275766017,
-            "uniqueID": 1727736197259,
-            "ioValues": [
-                {
-                    "name": "Wood Thickness",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1727736196956,
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Wood Thickness",
-                    "x": 0.04,
-                    "y": 0.5289017341040462,
-                    "uniqueID": 1727736197156,
-                    "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.14947089947089948,
-                    "y": 0.6740947075208913,
-                    "uniqueID": 1727736202918,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 695
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
-            "atomType": "Molecule",
             "name": "Top",
             "x": 0.19069767441860463,
             "y": 0.44846796657381616,
