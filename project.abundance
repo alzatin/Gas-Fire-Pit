@@ -31,12 +31,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1727215036716
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1357,8 +1352,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 0.26046511627906976,
-            "y": 0.233983286908078,
+            "x": 0.25020242914979757,
+            "y": 0.25,
             "uniqueID": 1727737741448,
             "ioValues": [
                 {
@@ -1387,12 +1382,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1727737741529,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1727738060986
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1862,12 +1852,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1727737824513,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1727814826315
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1990,8 +1975,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4391534391534392,
-                            "y": 0.807799442896936,
+                            "x": 0.43400809716599187,
+                            "y": 0.7957317073170732,
                             "uniqueID": 1727739170936,
                             "ioValues": [
                                 {
@@ -2016,8 +2001,8 @@
                         {
                             "atomType": "Tag",
                             "name": "cutLayout,",
-                            "x": 0.5297619047619048,
-                            "y": 0.7353760445682451,
+                            "x": 0.5700404858299596,
+                            "y": 0.5945121951219512,
                             "uniqueID": 1727739215748,
                             "ioValues": [
                                 {
@@ -2035,8 +2020,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "RotatePattern",
-                            "x": 0.705026455026455,
-                            "y": 0.42618384401114207,
+                            "x": 0.708502024291498,
+                            "y": 0.42378048780487804,
                             "uniqueID": 1727814826315,
                             "ioValues": [
                                 {
@@ -2061,12 +2046,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1727814826836,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1727814826888
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
