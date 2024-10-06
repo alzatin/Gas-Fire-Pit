@@ -1352,8 +1352,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 0.2657580919931857,
-            "y": 0.2618384401114206,
+            "x": 0.26647564469914037,
+            "y": 0.2804878048780488,
             "uniqueID": 1727737741448,
             "ioValues": [
                 {
@@ -1522,8 +1522,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.2394179894179894,
-                            "y": 0.6935933147632313,
+                            "x": 0.23400191021967526,
+                            "y": 0.7195121951219512,
                             "uniqueID": 1727737914209,
                             "ioValues": [
                                 {
@@ -1536,8 +1536,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.3108465608465608,
-                            "y": 0.5153203342618384,
+                            "x": 0.30945558739255014,
+                            "y": 0.5152439024390244,
                             "uniqueID": 1727737919845,
                             "ioValues": [
                                 {
@@ -1840,7 +1840,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1727737824513,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1727814826315
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2034,7 +2039,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1727814826836,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1727814826888
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
