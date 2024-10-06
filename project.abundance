@@ -700,8 +700,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Propane-Tank",
-            "x": 0.3988095238095238,
-            "y": 0.26740947075208915,
+            "x": 0.396871945259042,
+            "y": 0.2530487804878049,
             "uniqueID": 1726852191202,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
