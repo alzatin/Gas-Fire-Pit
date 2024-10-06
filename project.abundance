@@ -31,7 +31,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1727215036716
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1382,7 +1387,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1727737741529,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1727738060986
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1441,7 +1451,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1727737814431,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1727737972592
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1474,8 +1489,8 @@
                         {
                             "atomType": "Equation",
                             "name": "R-2*S",
-                            "x": 0.11375661375661376,
-                            "y": 0.3983286908077995,
+                            "x": 0.11461318051575932,
+                            "y": 0.38109756097560976,
                             "uniqueID": 1727737859576,
                             "ioValues": [
                                 {
@@ -1554,8 +1569,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3287037037037037,
-                            "y": 0.8161559888579387,
+                            "x": 0.3285577841451767,
+                            "y": 0.8140243902439025,
                             "uniqueID": 1727737926983,
                             "ioValues": [
                                 {
@@ -1640,8 +1655,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5281090289608177,
-                            "y": 0.6295264623955432,
+                            "x": 0.5281757402101241,
+                            "y": 0.6280487804878049,
                             "uniqueID": 1727737984473,
                             "ioValues": [
                                 {
@@ -1781,6 +1796,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1727737962562,
                             "ap2ID": 1727737984473
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1727737972592,
+                            "ap2ID": 1727737814431
                         },
                         {
                             "ap1Name": "geometry",
@@ -2374,8 +2396,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.5674603174603174,
-                    "y": 0.44568245125348194,
+                    "x": 0.565425023877746,
+                    "y": 0.43902439024390244,
                     "uniqueID": 1727738060986,
                     "ioValues": [
                         {
@@ -3136,6 +3158,13 @@
             "ap2ID": 1727737312273
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1727215036716,
+            "ap2ID": 1726787848543
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 5",
             "ap2Primary": false,
@@ -3201,6 +3230,19 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Fire Pit Ring",
+            "numberNeeded": 1,
+            "costUSD": 206,
+            "source": "https://amzn.to/3XAoGSm"
+        },
+        {
+            "BOMitemName": "Propane Tank",
+            "numberNeeded": 1,
+            "costUSD": 68.95,
+            "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
+        }
+    ],
     "filetypeVersion": 1
 }
