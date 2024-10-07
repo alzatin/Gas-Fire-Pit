@@ -1077,6 +1077,10 @@
                 {
                     "name": "Shape 3",
                     "ioValue": 1727737741448
+                },
+                {
+                    "name": "Shape 4",
+                    "ioValue": 1727736219741
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -1085,8 +1089,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.2665441176470588,
-            "y": 0.4573170731707317,
+            "x": 0.2693014705882353,
+            "y": 0.46341463414634143,
             "uniqueID": 1727736219741,
             "ioValues": [
                 {
@@ -1127,13 +1131,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.18790697674418605,
-                    "y": 0.766016713091922,
+                    "x": 0.18106617647058826,
+                    "y": 0.798780487804878,
                     "uniqueID": 1727736228267,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 749
+                            "ioValue": 10
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1261,13 +1265,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1727736267065,
                     "ap2ID": 1727738618607
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "diameter",
-                    "ap2Primary": false,
-                    "ap1ID": 1727737695537,
-                    "ap2ID": 1727736228267
                 },
                 {
                     "ap1Name": "geometry",
@@ -3147,6 +3144,13 @@
             "ap2Primary": false,
             "ap1ID": 1727215036716,
             "ap2ID": 1727737312273
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1727736219741,
+            "ap2ID": 1727215036716
         },
         {
             "ap1Name": "geometry",
