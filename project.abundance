@@ -31,7 +31,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1727215036716
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1062,8 +1067,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.6117724867724867,
-            "y": 0.6016713091922006,
+            "x": 0.609375,
+            "y": 0.6036585365853658,
             "uniqueID": 1727215036716,
             "ioValues": [
                 {
@@ -1137,7 +1142,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 749
                         }
                     ],
                     "description": "Creates a new circle."
@@ -3144,6 +3149,13 @@
             "ap2Primary": false,
             "ap1ID": 1727215036716,
             "ap2ID": 1727737312273
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1727215036716,
+            "ap2ID": 1726787848543
         },
         {
             "ap1Name": "Geometry",
