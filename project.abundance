@@ -703,342 +703,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Propane-Tank",
-            "x": 0.396871945259042,
-            "y": 0.2530487804878049,
-            "uniqueID": 1726852191202,
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1726852191037,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1726852191650
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.09126984126984126,
-                    "y": 0.25722543352601157,
-                    "uniqueID": 1726852191115,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 190
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.2347883597883598,
-                    "y": 0.24855491329479767,
-                    "uniqueID": 1726852191704,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852191115
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 25
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.09259259259259259,
-                    "y": 0.546242774566474,
-                    "uniqueID": 1726852191589,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 312
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.23875661375661375,
-                    "y": 0.5606936416184971,
-                    "uniqueID": 1726852191207,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852191589
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 320
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Join",
-                    "name": "Assembly",
-                    "x": 0.5,
-                    "y": 0.30346820809248554,
-                    "uniqueID": 1726852190779,
-                    "ioValues": [
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1726852191704
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": 1726852191247
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": 1726852191090
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Assembly"
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.3604497354497354,
-                    "y": 0.4797687861271676,
-                    "uniqueID": 1726852191247,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852191207
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 25
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.08465608465608465,
-                    "y": 0.777456647398844,
-                    "uniqueID": 1726852190934,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 190
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.22751322751322753,
-                    "y": 0.7976878612716762,
-                    "uniqueID": 1726852191073,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852190934
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 107
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.37367724867724866,
-                    "y": 0.7601156069364162,
-                    "uniqueID": 1726852191090,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852191073
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 325
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Add-BOM-Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.6243386243386243,
-                    "y": 0.5260115606936416,
-                    "uniqueID": 1726852191214,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852190779
-                        }
-                    ],
-                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
-                    "BOMitem": {
-                        "BOMitemName": "Propane Tank",
-                        "numberNeeded": 1,
-                        "costUSD": 68.95,
-                        "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
-                    }
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7268518518518519,
-                    "y": 0.6994219653179191,
-                    "uniqueID": 1726852191650,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1726852191214
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 20
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852191115,
-                    "ap2ID": 1726852191704
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1726852191704,
-                    "ap2ID": 1726852190779
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852191589,
-                    "ap2ID": 1726852191207
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852191207,
-                    "ap2ID": 1726852191247
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852190779,
-                    "ap2ID": 1726852191214
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 1726852191247,
-                    "ap2ID": 1726852190779
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852190934,
-                    "ap2ID": 1726852191073
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852191073,
-                    "ap2ID": 1726852191090
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 1726852191090,
-                    "ap2ID": 1726852190779
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1726852191214,
-                    "ap2ID": 1726852191650
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1726852191650,
-                    "ap2ID": 1726852191037
-                }
-            ],
-            "parentRepo": {
-                "repoName": "Propane-Tank",
-                "dateCreated": "2024-09-19T22:39:31Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/README.md?sanitize=true",
-                "yyyy": 2024,
-                "topMoleculeID": 1726785571959,
-                "html_url": "https://github.com/BarbourSmith/Propane-Tank",
-                "topics": [],
-                "forks": 0,
-                "dateModified": "09/19/2024",
-                "ranking": 0,
-                "owner": "BarbourSmith",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/project.svg?sanitize=true"
-            },
-            "unitsKey": "MM",
-            "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Propane Tank",
-                    "numberNeeded": 1,
-                    "costUSD": 68.95,
-                    "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
-                }
-            ]
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.49404761904761907,
@@ -1073,7 +737,7 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": 1726852191202
+                    "ioValue": 1728320117432
                 },
                 {
                     "name": "Shape 2",
@@ -3105,6 +2769,342 @@
             "uniqueID": 1727738816005,
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Propane-Tank",
+            "x": 0.4227941176470588,
+            "y": 0.24390243902439027,
+            "uniqueID": 1728320117432,
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1728320117097,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1728320116644
+                        }
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.09126984126984126,
+                    "y": 0.25722543352601157,
+                    "uniqueID": 1728320117326,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 190
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.2347883597883598,
+                    "y": 0.24855491329479767,
+                    "uniqueID": 1728320117415,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320117326
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 25
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.09259259259259259,
+                    "y": 0.546242774566474,
+                    "uniqueID": 1728320116452,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 312
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.23875661375661375,
+                    "y": 0.5606936416184971,
+                    "uniqueID": 1728320116688,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320116452
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 320
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.5,
+                    "y": 0.30346820809248554,
+                    "uniqueID": 1728320116716,
+                    "ioValues": [
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1728320117415
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1728320117174
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1728320116590
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                    "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3604497354497354,
+                    "y": 0.4797687861271676,
+                    "uniqueID": 1728320117174,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320116688
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 25
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.08465608465608465,
+                    "y": 0.777456647398844,
+                    "uniqueID": 1728320116843,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 190
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.22751322751322753,
+                    "y": 0.7976878612716762,
+                    "uniqueID": 1728320116471,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320116843
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 107
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.37367724867724866,
+                    "y": 0.7601156069364162,
+                    "uniqueID": 1728320116590,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320116471
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 325
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.6243386243386243,
+                    "y": 0.5260115606936416,
+                    "uniqueID": 1728320117204,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320116716
+                        }
+                    ],
+                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+                    "BOMitem": {
+                        "BOMitemName": "Propane Tank",
+                        "numberNeeded": 1,
+                        "costUSD": 68.95,
+                        "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
+                    }
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.7268518518518519,
+                    "y": 0.6994219653179191,
+                    "uniqueID": 1728320116644,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728320117204
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 20
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320117326,
+                    "ap2ID": 1728320117415
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1728320117415,
+                    "ap2ID": 1728320116716
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320116452,
+                    "ap2ID": 1728320116688
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320116688,
+                    "ap2ID": 1728320117174
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320116716,
+                    "ap2ID": 1728320117204
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1728320117174,
+                    "ap2ID": 1728320116716
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320116843,
+                    "ap2ID": 1728320116471
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320116471,
+                    "ap2ID": 1728320116590
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1728320116590,
+                    "ap2ID": 1728320116716
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1728320117204,
+                    "ap2ID": 1728320116644
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1728320116644,
+                    "ap2ID": 1728320117097
+                }
+            ],
+            "parentRepo": {
+                "repoName": "Propane-Tank",
+                "dateCreated": "2024-09-19T22:39:31Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/README.md?sanitize=true",
+                "yyyy": 2024,
+                "topMoleculeID": 1726785571959,
+                "html_url": "https://github.com/BarbourSmith/Propane-Tank",
+                "topics": [],
+                "forks": 0,
+                "dateModified": "09/19/2024",
+                "ranking": 0,
+                "owner": "BarbourSmith",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Propane-Tank/master/project.svg?sanitize=true"
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": [
+                {
+                    "BOMitemName": "Propane Tank",
+                    "numberNeeded": 1,
+                    "costUSD": 68.95,
+                    "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -3128,13 +3128,6 @@
             "ap2Primary": false,
             "ap1ID": 1726787881968,
             "ap2ID": 1727737741448
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1726852191202,
-            "ap2ID": 1727215036716
         },
         {
             "ap1Name": "geometry",
@@ -3219,6 +3212,13 @@
             "ap2Primary": false,
             "ap1ID": 1727738816005,
             "ap2ID": 1727737741448
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1728320117432,
+            "ap2ID": 1727215036716
         }
     ],
     "unitsKey": "MM",
