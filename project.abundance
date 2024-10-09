@@ -705,8 +705,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.49404761904761907,
-            "y": 0.8133704735376045,
+            "x": 0.49007936507936506,
+            "y": 0.819078947368421,
             "uniqueID": 1727215013003,
             "ioValues": [
                 {
@@ -731,8 +731,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.609375,
-            "y": 0.6036585365853658,
+            "x": 0.6240079365079365,
+            "y": 0.47039473684210525,
             "uniqueID": 1727215036716,
             "ioValues": [
                 {
@@ -750,6 +750,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": 1727736219741
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": 1728504557992
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -956,8 +960,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.24014869888475834,
-            "y": 0.6406685236768802,
+            "x": 0.3462301587301587,
+            "y": 0.7664473684210527,
             "uniqueID": 1727736399623,
             "ioValues": [
                 {
@@ -3105,6 +3109,32 @@
                     "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
                 }
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.48214285714285715,
+            "y": 0.6052631578947368,
+            "uniqueID": 1728504557992,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1727736219741
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 490
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -3156,6 +3186,13 @@
             "ap2Primary": false,
             "ap1ID": 1727736219741,
             "ap2ID": 1727215036716
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1727736219741,
+            "ap2ID": 1728504557992
         },
         {
             "ap1Name": "geometry",
@@ -3218,6 +3255,13 @@
             "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": 1728320117432,
+            "ap2ID": 1727215036716
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": 1728504557992,
             "ap2ID": 1727215036716
         }
     ],
