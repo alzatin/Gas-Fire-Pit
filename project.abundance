@@ -748,10 +748,6 @@
                     "ioValue": 1727737741448
                 },
                 {
-                    "name": "Shape 4",
-                    "ioValue": 1727736219741
-                },
-                {
                     "name": "Shape 5",
                     "ioValue": 1728504557992
                 }
@@ -3179,13 +3175,6 @@
             "ap2Primary": false,
             "ap1ID": 1727215036716,
             "ap2ID": 1726787848543
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "Shape 4",
-            "ap2Primary": false,
-            "ap1ID": 1727736219741,
-            "ap2ID": 1727215036716
         },
         {
             "ap1Name": "Geometry",
