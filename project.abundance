@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Wood Thickness",
-            "ioValue": 12
+            "ioValue": 11
         },
         {
             "name": "Ring Diameter",
@@ -419,7 +419,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 12
+                    "ioValue": 11
                 },
                 {
                     "name": "Ring Diameter",
@@ -479,7 +479,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 12
+                            "ioValue": 11
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -533,7 +533,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -12
+                            "ioValue": -11
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -547,7 +547,7 @@
                     "ioValues": [
                         {
                             "name": "T",
-                            "ioValue": 12
+                            "ioValue": 11
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -666,7 +666,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 12
+                    "ioValue": 11
                 },
                 {
                     "name": "Sheet Width",
@@ -847,7 +847,7 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 12
+                    "ioValue": 11
                 },
                 {
                     "name": "Ring Diameter",
@@ -915,7 +915,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 12
+                            "ioValue": 11
                         },
                         {
                             "name": "Ring Diameter",
@@ -1063,7 +1063,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12
+                                    "ioValue": 11
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1687,7 +1687,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 12
+                            "ioValue": 11
                         },
                         {
                             "name": "Ring Diameter",
@@ -1778,7 +1778,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 12
+                                    "ioValue": 11
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -2200,7 +2200,7 @@
                         },
                         {
                             "name": "Material Thickness",
-                            "ioValue": 12
+                            "ioValue": 11
                         },
                         {
                             "name": "Sheet Width",
