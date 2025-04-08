@@ -500,8 +500,7 @@
                     "tags": [
                         "cutLayout",
                         "Wood"
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -568,8 +567,7 @@
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "wood"
-                    ],
-                    "cutTag": false
+                    ]
                 }
             ],
             "allConnectors": [
@@ -636,8 +634,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.37367724867724866,
-            "y": 0.5348189415041783,
+            "x": 0.37931034482758624,
+            "y": 0.5412844036697247,
             "uniqueID": 1727736399623,
             "ioValues": [
                 {
@@ -1083,8 +1081,7 @@
                             "tags": [
                                 "cutLayout",
                                 "wood"
-                            ],
-                            "cutTag": true
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -1877,8 +1874,7 @@
                             "tags": [
                                 "cutLayout",
                                 "wood"
-                            ],
-                            "cutTag": true
+                            ]
                         },
                         {
                             "atomType": "GitHubMolecule",
@@ -2594,8 +2590,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 "Printed"
-                            ],
-                            "cutTag": false
+                            ]
                         },
                         {
                             "atomType": "Assembly",
@@ -2661,7 +2656,7 @@
                             "type": null,
                             "resolution": 72,
                             "importIndex": 0,
-                            "fileName": null
+                            "partName": "Inner Uprights"
                         }
                     ],
                     "allConnectors": [
@@ -3157,7 +3152,7 @@
             "type": null,
             "resolution": 72,
             "importIndex": 0,
-            "fileName": null
+            "partName": "Gas-Fire-Pit"
         },
         {
             "atomType": "ExtractTag",
