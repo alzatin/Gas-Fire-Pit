@@ -51,8 +51,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Propane-Tank",
-            "x": 0.4708994708994709,
-            "y": 0.21448467966573817,
+            "x": 0.47030651340996166,
+            "y": 0.21712538226299696,
             "uniqueID": 1726852191202,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -413,8 +413,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.18716931216931218,
-            "y": 0.467966573816156,
+            "x": 0.18773946360153254,
+            "y": 0.4954128440366972,
             "uniqueID": 1727736219741,
             "ioValues": [
                 {
@@ -455,8 +455,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.18584656084656084,
-                    "y": 0.7493036211699164,
+                    "x": 0.18773946360153254,
+                    "y": 0.746177370030581,
                     "uniqueID": 1727736228267,
                     "ioValues": [
                         {
@@ -469,8 +469,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.24074074074074073,
-                    "y": 0.5292479108635098,
+                    "x": 0.31992337164750956,
+                    "y": 0.4862385321100917,
                     "uniqueID": 1727736233818,
                     "ioValues": [
                         {
@@ -486,7 +486,7 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "cutLayout,Wood",
+                    "name": "cutLayout",
                     "x": 0.41269841269841273,
                     "y": 0.6350974930362118,
                     "uniqueID": 1727736267065,
@@ -498,8 +498,7 @@
                     ],
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
-                        "cutLayout",
-                        "Wood"
+                        "cutLayout"
                     ]
                 },
                 {
@@ -540,8 +539,8 @@
                 {
                     "atomType": "Equation",
                     "name": "T*-1",
-                    "x": 0.3897674418604651,
-                    "y": 0.33983286908078,
+                    "x": 0.39176245210727967,
+                    "y": 0.3302752293577982,
                     "uniqueID": 1727738624697,
                     "ioValues": [
                         {
@@ -555,8 +554,8 @@
                 {
                     "atomType": "Tag",
                     "name": "wood",
-                    "x": 0.7116402116402116,
-                    "y": 0.5877437325905293,
+                    "x": 0.7040229885057472,
+                    "y": 0.5871559633027523,
                     "uniqueID": 1731606206292,
                     "ioValues": [
                         {
@@ -634,8 +633,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.37931034482758624,
-            "y": 0.5412844036697247,
+            "x": 0.36877394636015326,
+            "y": 0.5351681957186545,
             "uniqueID": 1727736399623,
             "ioValues": [
                 {
