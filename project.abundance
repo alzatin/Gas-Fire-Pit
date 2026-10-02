@@ -277,33 +277,8 @@
       "allConnectors": [
         {
           "ap2Name": "geometry",
-          "ap1ID": 1726852191115,
-          "ap2ID": 1726852191704
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": 1726852191704,
-          "ap2ID": 1726852190779
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1726852191589,
-          "ap2ID": 1726852191207
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1726852191207,
-          "ap2ID": 1726852191247
-        },
-        {
-          "ap2Name": "geometry",
           "ap1ID": 1726852190779,
           "ap2ID": 1726852191214
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": 1726852191247,
-          "ap2ID": 1726852190779
         },
         {
           "ap2Name": "geometry",
@@ -322,13 +297,38 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": 1726852191115,
+          "ap2ID": 1726852191704
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": 1726852191207,
+          "ap2ID": 1726852191247
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": 1726852191214,
           "ap2ID": 1726852191650
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": 1726852191247,
+          "ap2ID": 1726852190779
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": 1726852191589,
+          "ap2ID": 1726852191207
         },
         {
           "ap2Name": "number or geometry",
           "ap1ID": 1726852191650,
           "ap2ID": 1726852191037
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": 1726852191704,
+          "ap2ID": 1726852190779
         }
       ],
       "parentRepo": {
@@ -419,13 +419,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 749
+              "ioValue": 900,
+              "currentEquation": "900"
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.2,
+          "x": 0.3,
           "y": 0.5,
           "uniqueID": 1727736233818,
           "ioValues": [
@@ -441,7 +442,7 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.4,
+          "x": 0.5,
           "y": 0.6,
           "uniqueID": 1727736267065,
           "name": "cutLayout,Wood",
@@ -466,8 +467,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6,
-          "y": 0.4,
+          "x": 0.7,
+          "y": 0.5,
           "uniqueID": 1727738618607,
           "ioValues": [
             {
@@ -504,7 +505,7 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.7,
+          "x": 0.8,
           "y": 0.6,
           "uniqueID": 1731606206292,
           "name": "wood",
@@ -603,12 +604,12 @@
       "name": "Sides",
       "ioValues": [
         {
-          "name": "Wood Thickness",
-          "ioValue": 12
-        },
-        {
           "name": "Ring Diameter",
           "ioValue": 749
+        },
+        {
+          "name": "Wood Thickness",
+          "ioValue": 12
         },
         {
           "name": "Slat Thickness",
@@ -665,16 +666,16 @@
           "name": "Inner Rings",
           "ioValues": [
             {
-              "name": "Wood Thickness",
-              "ioValue": 12
-            },
-            {
               "name": "Ring Diameter",
               "ioValue": 749
             },
             {
               "name": "Slat Thickness",
               "ioValue": 12.7
+            },
+            {
+              "name": "Wood Thickness",
+              "ioValue": 12
             }
           ],
           "topLevel": false,
@@ -690,7 +691,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.3,
+              "y": 0.2,
               "uniqueID": 1727737814423,
               "name": "Slat Thickness",
               "options": []
@@ -710,7 +711,7 @@
             {
               "atomType": "Input",
               "x": 0,
-              "y": 0.2,
+              "y": 0.3,
               "uniqueID": 1727737815152,
               "name": "Wood Thickness",
               "options": []
@@ -1213,11 +1214,6 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "height",
-              "ap1ID": 1727737815152,
-              "ap2ID": 1727737926983
-            },
-            {
               "ap2Name": "R",
               "ap1ID": 1727737814292,
               "ap2ID": 1727737859576
@@ -1226,6 +1222,11 @@
               "ap2Name": "S",
               "ap1ID": 1727737814423,
               "ap2ID": 1727737859576
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": 1727737815152,
+              "ap2ID": 1727737926983
             },
             {
               "ap2Name": "diameter",
@@ -1343,12 +1344,12 @@
           "name": "Inner Uprights",
           "ioValues": [
             {
-              "name": "Wood Thickness",
-              "ioValue": 12
-            },
-            {
               "name": "Ring Diameter",
               "ioValue": 749
+            },
+            {
+              "name": "Wood Thickness",
+              "ioValue": 12
             },
             {
               "name": "Slat Thickness",
@@ -1656,6 +1657,11 @@
                   "ap2ID": 1727814826888
                 },
                 {
+                  "ap2Name": "geometry",
+                  "ap1ID": 1727814826507,
+                  "ap2ID": 1727814826442
+                },
+                {
                   "ap2Name": "Number",
                   "ap1ID": 1727814826517,
                   "ap2ID": 1727814826888
@@ -1669,11 +1675,6 @@
                   "ap2Name": "geometry",
                   "ap1ID": 1727814826726,
                   "ap2ID": 1727814826507
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": 1727814826507,
-                  "ap2ID": 1727814826442
                 },
                 {
                   "ap2Name": "number or geometry",
@@ -1715,12 +1716,12 @@
                   "ioValue": 3
                 },
                 {
-                  "name": "Width",
-                  "ioValue": 25
-                },
-                {
                   "name": "Height",
                   "ioValue": 12
+                },
+                {
+                  "name": "Width",
+                  "ioValue": 25
                 }
               ],
               "topLevel": false,
@@ -1924,18 +1925,18 @@
                     },
                     {
                       "name": "3D shape 5",
-                      "ioValue": ""
+                      "ioValue": "__GEOMETRY_INPUT__"
                     },
                     {
                       "name": "Shape1",
-                      "ioValue": null
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ]
                 },
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.3,
+                  "y": 0.2,
                   "uniqueID": 1732664139796,
                   "name": "Height",
                   "options": []
@@ -2017,7 +2018,7 @@
                 {
                   "atomType": "Input",
                   "x": 0,
-                  "y": 0.2,
+                  "y": 0.3,
                   "uniqueID": 1732664140227,
                   "name": "Width",
                   "options": []
@@ -2049,6 +2050,26 @@
               ],
               "allConnectors": [
                 {
+                  "ap2Name": "xDist",
+                  "ap1ID": 1732664139613,
+                  "ap2ID": 1732664140197
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": 1732664139613,
+                  "ap2ID": 1732664139685
+                },
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": 1732664139657,
+                  "ap2ID": 1732664139710
+                },
+                {
+                  "ap2Name": "3D shape 2",
+                  "ap1ID": 1732664139685,
+                  "ap2ID": 1732664139730
+                },
+                {
                   "ap2Name": "geometry",
                   "ap1ID": 1732664139710,
                   "ap2ID": 1732664140197
@@ -2069,24 +2090,9 @@
                   "ap2ID": 1732664140498
                 },
                 {
-                  "ap2Name": "diameter",
-                  "ap1ID": 1732664139657,
-                  "ap2ID": 1732664139710
-                },
-                {
-                  "ap2Name": "D",
-                  "ap1ID": 1732664140227,
-                  "ap2ID": 1732664139613
-                },
-                {
-                  "ap2Name": "xDist",
-                  "ap1ID": 1732664140227,
-                  "ap2ID": 1732664140498
-                },
-                {
-                  "ap2Name": "xDist",
-                  "ap1ID": 1732664140227,
-                  "ap2ID": 1732664140162
+                  "ap2Name": "number or geometry",
+                  "ap1ID": 1732664139730,
+                  "ap2ID": 1732664140017
                 },
                 {
                   "ap2Name": "D",
@@ -2104,41 +2110,6 @@
                   "ap2ID": 1732664140162
                 },
                 {
-                  "ap2Name": "3D shape 1",
-                  "ap1ID": 1732664140197,
-                  "ap2ID": 1732664139730
-                },
-                {
-                  "ap2Name": "3D shape 2",
-                  "ap1ID": 1732664139685,
-                  "ap2ID": 1732664139730
-                },
-                {
-                  "ap2Name": "3D shape 3",
-                  "ap1ID": 1732664140162,
-                  "ap2ID": 1732664139730
-                },
-                {
-                  "ap2Name": "3D shape 4",
-                  "ap1ID": 1732664140498,
-                  "ap2ID": 1732664139730
-                },
-                {
-                  "ap2Name": "number or geometry",
-                  "ap1ID": 1732664139730,
-                  "ap2ID": 1732664140017
-                },
-                {
-                  "ap2Name": "xDist",
-                  "ap1ID": 1732664139613,
-                  "ap2ID": 1732664140197
-                },
-                {
-                  "ap2Name": "xDist",
-                  "ap1ID": 1732664139613,
-                  "ap2ID": 1732664139685
-                },
-                {
                   "ap2Name": "yDist",
                   "ap1ID": 1732664139976,
                   "ap2ID": 1732664140197
@@ -2147,6 +2118,36 @@
                   "ap2Name": "yDist",
                   "ap1ID": 1732664139976,
                   "ap2ID": 1732664140498
+                },
+                {
+                  "ap2Name": "3D shape 3",
+                  "ap1ID": 1732664140162,
+                  "ap2ID": 1732664139730
+                },
+                {
+                  "ap2Name": "3D shape 1",
+                  "ap1ID": 1732664140197,
+                  "ap2ID": 1732664139730
+                },
+                {
+                  "ap2Name": "D",
+                  "ap1ID": 1732664140227,
+                  "ap2ID": 1732664139613
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": 1732664140227,
+                  "ap2ID": 1732664140498
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": 1732664140227,
+                  "ap2ID": 1732664140162
+                },
+                {
+                  "ap2Name": "3D shape 4",
+                  "ap1ID": 1732664140498,
+                  "ap2ID": 1732664139730
                 }
               ],
               "parentRepo": {
@@ -2319,14 +2320,14 @@
           ],
           "allConnectors": [
             {
-              "ap2Name": "y length",
-              "ap1ID": 1727737824611,
-              "ap2ID": 1727738417868
-            },
-            {
               "ap2Name": "R",
               "ap1ID": 1727737824012,
               "ap2ID": 1727738396735
+            },
+            {
+              "ap2Name": "y length",
+              "ap1ID": 1727737824611,
+              "ap2ID": 1727738417868
             },
             {
               "ap2Name": "S",
@@ -2620,23 +2621,23 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "Wood Thickness",
-          "ap1ID": 1727737741398,
+          "ap2Name": "Ring Diameter",
+          "ap1ID": 1727737741355,
           "ap2ID": 1727737814391
         },
         {
-          "ap2Name": "Wood Thickness",
-          "ap1ID": 1727737741398,
+          "ap2Name": "Ring Diameter",
+          "ap1ID": 1727737741355,
           "ap2ID": 1727737823997
         },
         {
-          "ap2Name": "Ring Diameter",
-          "ap1ID": 1727737741355,
+          "ap2Name": "Wood Thickness",
+          "ap1ID": 1727737741398,
           "ap2ID": 1727737814391
         },
         {
-          "ap2Name": "Ring Diameter",
-          "ap1ID": 1727737741355,
+          "ap2Name": "Wood Thickness",
+          "ap1ID": 1727737741398,
           "ap2ID": 1727737823997
         },
         {
@@ -2696,7 +2697,7 @@
     {
       "atomType": "Assembly",
       "x": 0.6,
-      "y": 0.4,
+      "y": 0.5,
       "uniqueID": 1730757127964,
       "ioValues": [
         {
@@ -3197,6 +3198,61 @@
       "allConnectors": [
         {
           "ap2Name": "geometry",
+          "ap1ID": 1732300612067,
+          "ap2ID": 1732300612077
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": 1732300612077,
+          "ap2ID": 1732300612485
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": 1732300612131,
+          "ap2ID": 1732300612988
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": 1732300612136,
+          "ap2ID": 1732300612383
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": 1732300612166,
+          "ap2ID": 1732300612432
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": 1732300612309,
+          "ap2ID": 1732300612508
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": 1732300612330,
+          "ap2ID": 1732300612383
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": 1732300612335,
+          "ap2ID": 1732300612166
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": 1732300612383,
+          "ap2ID": 1732300612067
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": 1732300612432,
+          "ap2ID": 1732300612330
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": 1732300612579,
+          "ap2ID": 1732300612383
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": 1732300612874,
           "ap2ID": 1732300612579
         },
@@ -3211,64 +3267,9 @@
           "ap2ID": 1732300612166
         },
         {
-          "ap2Name": "Shape 2",
-          "ap1ID": 1732300612579,
-          "ap2ID": 1732300612383
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1732300612067,
-          "ap2ID": 1732300612077
-        },
-        {
-          "ap2Name": "retain",
-          "ap1ID": 1732300612131,
-          "ap2ID": 1732300612988
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": 1732300612988,
           "ap2ID": 1732300612136
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": 1732300612136,
-          "ap2ID": 1732300612383
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1732300612383,
-          "ap2ID": 1732300612067
-        },
-        {
-          "ap2Name": "retain",
-          "ap1ID": 1732300612335,
-          "ap2ID": 1732300612166
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1732300612166,
-          "ap2ID": 1732300612432
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": 1732300612432,
-          "ap2ID": 1732300612330
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": 1732300612330,
-          "ap2ID": 1732300612383
-        },
-        {
-          "ap2Name": "Shape",
-          "ap1ID": 1732300612077,
-          "ap2ID": 1732300612485
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": 1732300612309,
-          "ap2ID": 1732300612508
         },
         {
           "ap2Name": "geometry",
