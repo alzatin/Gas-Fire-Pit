@@ -419,8 +419,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 900,
-              "currentEquation": "900"
+              "ioValue": 900
             }
           ]
         },
@@ -599,7 +598,7 @@
     {
       "atomType": "Molecule",
       "x": 0.3,
-      "y": 0.2,
+      "y": 0.3,
       "uniqueID": 1727737741448,
       "name": "Sides",
       "ioValues": [
@@ -2617,27 +2616,99 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.4,
+          "y": 0.8,
+          "uniqueID": "id-711",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 200
+            },
+            {
+              "name": "y length",
+              "ioValue": 200
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5,
+          "y": 0.8,
+          "uniqueID": "id-715",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 1000
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.8,
+          "y": 0.9,
+          "uniqueID": "id-719",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.9,
+          "uniqueID": "id-723",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 300
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "Ring Diameter",
-          "ap1ID": 1727737741355,
+          "ap2Name": "Wood Thickness",
+          "ap1ID": 1727737741398,
           "ap2ID": 1727737814391
         },
         {
-          "ap2Name": "Ring Diameter",
-          "ap1ID": 1727737741355,
+          "ap2Name": "Wood Thickness",
+          "ap1ID": 1727737741398,
           "ap2ID": 1727737823997
         },
         {
-          "ap2Name": "Wood Thickness",
-          "ap1ID": 1727737741398,
+          "ap2Name": "Ring Diameter",
+          "ap1ID": 1727737741355,
           "ap2ID": 1727737814391
         },
         {
-          "ap2Name": "Wood Thickness",
-          "ap1ID": 1727737741398,
+          "ap2Name": "Ring Diameter",
+          "ap1ID": 1727737741355,
           "ap2ID": 1727737823997
         },
         {
@@ -2656,14 +2727,14 @@
           "ap2ID": 1727737823997
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": 1728507794095,
-          "ap2ID": 1727737741529
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": 1728507794095,
           "ap2ID": 1728507752623
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": 1728507794095,
+          "ap2ID": "id-719"
         },
         {
           "ap2Name": "Shape 3",
@@ -2674,6 +2745,26 @@
           "ap2Name": "Shape 1",
           "ap1ID": 1727737823997,
           "ap2ID": 1728507794095
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-711",
+          "ap2ID": "id-715"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-715",
+          "ap2ID": "id-723"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-719",
+          "ap2ID": 1727737741529
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-723",
+          "ap2ID": "id-719"
         }
       ],
       "fileTypeVersion": 1
