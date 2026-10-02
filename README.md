@@ -2,7 +2,15 @@
 
 # Gas-Fire-Pit
 
-![](/project.svg)
+![](/project.png)
+
+## Inputs
+
+- **Wood Thickness** (number)
+- **Ring Diameter** (number)
+- **Slat Thickness** (number)
+- **Height** (number)
+
 
 
 
